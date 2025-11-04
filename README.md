@@ -1,3 +1,5 @@
 # A-Khoddoum.github.io
-Master of Science, Mechanical Engineer </br><br></br>
+Master of Science, Mechanical Engineering Department </br><br></br>
+
+
 Personal Academic webpage.
