@@ -8,25 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <style>
             ul {
-                list-style-type: none; /* حذف گلوله‌های پیش‌فرض */
-                padding-left: 20px;     /* فاصله از سمت چپ */
-            }
-
-            ul li {
-                position: relative;   /* موقعیت نسبی برای آیتم‌ها */
-                padding-left: 25px;    /* فاصله برای نمایش گلوله */
-            }
-
-            ul li::before {
-                content: '';                 /* محتوای خالی برای ایجاد گلوله */
-                position: absolute;          /* موقعیت مطلق برای قرار دادن گلوله */
-                left: 0;                     /* قرار دادن گلوله در سمت چپ آیتم */
-                top: 50%;                    /* مرکز کردن گلوله به صورت عمودی */
-                transform: translateY(-50%); /* تنظیم دقیق موقعیت عمودی */
-                width: 8px;                  /* اندازه دایره */
-                height: 8px;                 /* ارتفاع دایره */
-                background-color: black;    /* رنگ پر گلوله */
-                border-radius: 50%;         /* ایجاد دایره */
+                list-style-type: circle; /* گلوله‌های دایره‌ای */
+                padding-left: 20px;       /* فاصله از چپ */
             }
         </style>
     </head>
@@ -50,15 +33,15 @@
         
         <h2>Fields of Research:</h2>
         <ul>
-            <li>Vibration (Continuous systems, Non-linear, Based Condition Health Monitoring)</li>,</br>
-            <li>Control systems (Linear, Non-Linear, Modern, Optimal, Digital)</li></br>
-            <li>Mechatronics (Sensors and Actuators, MEMS, NEMS)</li></br>
-            <li>Robotics and Automation</li></br>
-            <li>Mechanism Design</li></br>
-            <li>FEM</li></br>
-            <li>System Dynamics</li></br>
-            <li>Medical Instruments</li></br>
-            <li>Orthopedic Biomechanics</li></br>
+            <li>Vibration (Continuous systems, Non-linear, Based Condition Health Monitoring)</li>,<br>
+            <li>Control systems (Linear, Non-Linear, Modern, Optimal, Digital)</li><br>
+            <li>Mechatronics (Sensors and Actuators, MEMS, NEMS)</li><br>
+            <li>Robotics and Automation</li><br>
+            <li>Mechanism Design</li><br>
+            <li>Finite Element Analysis</li><br>
+            <li>System Dynamics</li><br>
+            <li>Medical Instruments</li><br>
+            <li>Orthopedic Biomechanics</li><br>
         </ul>
 
         <div class="row">
